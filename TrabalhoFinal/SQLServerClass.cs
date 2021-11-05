@@ -30,7 +30,7 @@ namespace TrabalhoFinal
                 throw new Exception(ex.Message);
             }
         }
-
+        // retorna uma tabela
         public DataTable SQLQuery(string SQL) // tabela em memória
         {
             DataTable dt = new DataTable();

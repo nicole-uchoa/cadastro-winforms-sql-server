@@ -73,7 +73,7 @@ namespace TrabalhoFinal
             this.Controls.Add(this.Btn_OK);
             this.Controls.Add(this.Lbl_Questao);
             this.Name = "Frm_Confirma";
-            this.Text = "Frm_Confirma";
+            this.Text = "Excluir Cliente";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -84,7 +84,7 @@ namespace TrabalhoFinal
             this.Controls.Add(this.Tls_Principal);
             this.Controls.Add(this.Lst_Busca);
             this.Name = "Frm_Busca";
-            this.Text = "Frm_Busca";
+            this.Text = "Clientes Cadastrados";
             this.Tls_Principal.ResumeLayout(false);
             this.Tls_Principal.PerformLayout();
             this.ResumeLayout(false);

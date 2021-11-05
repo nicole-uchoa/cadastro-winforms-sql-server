@@ -87,7 +87,7 @@ namespace TrabalhoFinal
             this.Btn_Busca.Name = "Btn_Busca";
             this.Btn_Busca.Size = new System.Drawing.Size(91, 23);
             this.Btn_Busca.TabIndex = 60;
-            this.Btn_Busca.Text = "Buscar Cliente";
+            this.Btn_Busca.Text = "Buscar Clientes";
             this.Btn_Busca.UseVisualStyleBackColor = true;
             this.Btn_Busca.Click += new System.EventHandler(this.Btn_Busca_Click);
             // 
@@ -508,6 +508,7 @@ namespace TrabalhoFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(743, 572);
             this.Controls.Add(this.Tls_Principal);
             this.Controls.Add(this.Btn_Busca);
@@ -516,7 +517,8 @@ namespace TrabalhoFinal
             this.Controls.Add(this.Grp_DadosPessoais);
             this.Controls.Add(this.Grp_Codigo);
             this.Name = "Frm_Cadastro_Cliente";
-            this.Text = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cadastro Clientes";
             this.Grp_Outros.ResumeLayout(false);
             this.Grp_Outros.PerformLayout();
             this.Grp_Endereco.ResumeLayout(false);

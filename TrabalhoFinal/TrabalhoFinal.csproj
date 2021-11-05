@@ -145,7 +145,6 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Imagens\apagar.jpg" />
-    <Content Include="Imagens\limpar.jpg" />
     <Content Include="Imagens\limpar.png" />
     <Content Include="Imagens\lixo.png" />
   </ItemGroup>
